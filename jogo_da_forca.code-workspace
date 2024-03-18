@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../jogoDaForca-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jogo_da_forca"
+	}
+}
