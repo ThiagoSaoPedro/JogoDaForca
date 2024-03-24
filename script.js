@@ -260,5 +260,4 @@ document.getElementById("PalavraSecreta").innerText = PalavraSecreta;
 
 //variavel com valor das "chances"
 let tentativas = 8;
-alert(palavraAleatoria)
 
