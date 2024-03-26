@@ -113,3 +113,11 @@ button:hover {
     border-radius: 1vw;
     display: none;
 }
+
+.reiniciar{
+    background-color: #561b7e;
+    font-size: 1vw;
+    font-weight: bold;
+    width: 10vw;
+    height: 2vw;
+}
