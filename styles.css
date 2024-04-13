@@ -12,8 +12,15 @@ body{
 .forca {
     height: 50vh;
     width: 15vw;
-    margin-top: 6vw;
+    margin-top: 8vw;
 }
+
+@media only screen and (max-width: 800px) {
+    .forca {
+      margin-top : 100vw;
+      width: 40vw;
+    }
+  }
 
 .palavras {
     list-style: none;
@@ -22,7 +29,9 @@ body{
     margin-bottom: 3vw;
     text-align: center;
 }
-
+@media only screen and (max-width: 800px) {
+    
+  }
 li {
     list-style: none;
     text-align: center;
@@ -51,6 +60,7 @@ button {
     width: 4vw;
     height: 4.5vw;
 }
+
 
 button:hover {
     background-color: #6b229c;
@@ -121,3 +131,28 @@ button:hover {
     width: 10vw;
     height: 2vw;
 }
+
+@media only screen and (max-width: 800px) {
+    .palavras {
+        list-style: none;
+        font-size: 7vw;
+        margin-top: -4vw;
+        margin-bottom: 10vw;
+        text-align: center;
+    }
+    .botoes button {
+        background-color: #561b7e;
+        font-size: 3vw;
+        font-weight: bold;
+        width: 8vw;
+        height: 8vw;
+        margin-top: 2vw;
+    }
+    #Dica{
+        color: white;
+        font-size: 4vw;
+        text-align: center;
+        margin-bottom: 8vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+  }
