@@ -160,14 +160,15 @@ button:hover {
         border-radius: 5vw;
         display: none;
         width: 60vw;
-        height: 20vw;
+        height: 25vw;
     }
     #texto {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 8vh;
+        height: 10vh;
+        vertical-align: center;
       }
       .reiniciar{
         background-color: #561b7e;
