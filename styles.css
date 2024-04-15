@@ -15,12 +15,7 @@ body{
     margin-top: 8vw;
 }
 
-@media only screen and (max-width: 800px) {
-    .forca {
-      margin-top : 100vw;
-      width: 40vw;
-    }
-  }
+
 
 .palavras {
     list-style: none;
@@ -29,9 +24,7 @@ body{
     margin-bottom: 3vw;
     text-align: center;
 }
-@media only screen and (max-width: 800px) {
-    
-  }
+
 li {
     list-style: none;
     text-align: center;
@@ -109,7 +102,7 @@ button:hover {
 
 #alerta{
     padding: 20px;
-    background-color: #481768de;
+    background-color: #481768af;
     color: white;
     border-radius: 5px;
     position: fixed;
@@ -132,7 +125,13 @@ button:hover {
     height: 2vw;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 800px) {
+        .forca {
+          margin-top : 100vw;
+          width: 40vw;
+        }
+      }
     .palavras {
         list-style: none;
         font-size: 7vw;
@@ -154,5 +153,27 @@ button:hover {
         text-align: center;
         margin-bottom: 8vw;
         font-family: 'Montserrat', sans-serif;
+    }
+    #alerta{
+        top: 25%;
+        font-size: 2vw;
+        border-radius: 5vw;
+        display: none;
+        width: 60vw;
+        height: 20vw;
+    }
+    #texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+      }
+      .reiniciar{
+        background-color: #561b7e;
+        font-size: 4vw;
+        font-weight: bold;
+        width: 40vw;
+        height: 7vw;
     }
   }
