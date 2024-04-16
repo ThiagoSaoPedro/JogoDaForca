@@ -154,12 +154,15 @@ function EscolherDica(listaEscolhida) {
 function MudarBackGroundLetraErrada(letra) {
     var tecla = document.getElementById(letra)
     tecla.style.backgroundColor = "red"
+    tecla.disabled = true;
 }
 
 //função para deixar a letra correta verde
 function MudarBackGroundLetraCerta(letra) {
     var tecla = document.getElementById(letra)
     tecla.style.backgroundColor = "Green"
+    tecla.disabled = true;
+    
 }
 
 
