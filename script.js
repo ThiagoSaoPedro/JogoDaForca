@@ -3,7 +3,7 @@ const animal = [
     "cachorro",
     "gato",
     "elefante",
-    "leão",
+    "leao",
     "tigre",
     "papagaio",
     "cobra",
@@ -97,7 +97,7 @@ const cor = [
 
 const fruta = [
     "laranja",
-    "maçã",
+    "maça",
     "banana",
     "uva",
     "morango",
